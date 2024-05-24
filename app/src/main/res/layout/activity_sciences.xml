@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sciences"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/course_sci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Choose your course"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/bsc"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_sci"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="BSc Biological Sciences"/>
+
+    <Button
+        android:id="@+id/dataScience"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bsc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text=" Bachelor of Science in Data Science"/>
+
+    <Button
+        android:id="@+id/ict"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dataScience"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="DIPLOMA IN ICT: APP DEV"/>
+
+    <Button
+        android:id="@+id/mathcom"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ict"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="BSc Mathematical and Computer Sciences" />
+
+    <Button
+        android:id="@+id/physcie"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mathcom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="BSc Physical Sciences" />
+
+</RelativeLayout>

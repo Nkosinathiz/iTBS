@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Economic"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/course_eco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Choose your course"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/accounting"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_eco"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="Bcom. Accounting"/>
+
+    <Button
+        android:id="@+id/economics"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accounting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="Bcom. Economics"/>
+
+    <Button
+        android:id="@+id/rbm"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/economics"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="DIPLOMA IN RETAIL BUSINESS MANAGEMENT"/>
+
+    <Button
+        android:id="@+id/mgmnt"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="ADVANCED DIPLOMA IN MANAGEMENT"/>
+
+    <Button
+        android:id="@+id/management"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mgmnt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#3E68A6"
+        android:text="ADVANCED DIPLOMA IN MANAGEMENT"/>
+
+</RelativeLayout>

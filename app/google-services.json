@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "383390861026",
+    "firebase_url": "https://itbs-43adb-default-rtdb.firebaseio.com",
+    "project_id": "itbs-43adb",
+    "storage_bucket": "itbs-43adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383390861026:android:98dad95031a2d9a14040bb",
+        "android_client_info": {
+          "package_name": "com.example.itbs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsSsNP6rtLHc4PsfZne_jAnxxxAeDNux0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
